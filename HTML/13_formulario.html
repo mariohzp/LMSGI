@@ -6,7 +6,10 @@
     <title>13Formulario</title>
 </head>
 <body>
+    <!--Datos rellenar-->
     <div style="position: absolute; left: 300px;">
+        <fieldset>
+            <legend>Datos personales</legend>
         <h1>TELEBIRRIA</h1>
         <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
         <form>
@@ -16,6 +19,51 @@
             <input type="text" id="lname" name="lname" value="-"><br><br>
             <input type="submit" value="Submit">
         </form>
+    </fieldset>
+    </div>
+    <!--Circulos seleccionar-->
+    <div style="position: absolute; left:300px; top:300px">
+        <fieldset>
+        <form>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">ejemplo 1 a seleccionar</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">ejemplo 2 a seleccionar</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">ejemplo 3 a seleccionar</label>
+          </form>
+        </fieldset>
+    </div>
+    <!--Seleccion opcion1-->
+    <div style="position: absolute; left: 520px; top:300px">
+        <fieldset>
+        <label for="cars">Elige una opción:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">op1</option>
+          <option value="saab">op2</option>
+          <option value="fiat">op3</option>
+          <option value="audi">op4</option>
+        </select>
+    </fieldset>
+    </div>
+    <!--Seleccion opcion2-->
+    <div style="position: absolute; left: 520px; top:340px">
+        <fieldset>
+        <label for="cars">Elige una opción:</label>
+        <select id="cars" name="cars">
+          <option value="volvo">op1</option>
+          <option value="saab">op2</option>
+          <option value="fiat">op3</option>
+          <option value="audi">op4</option>
+        </select>
+    </fieldset>
+    </div>
+    <!--Botón click me-->
+    <div style="position: absolute; top: 300px; left: 725px">
+        <fieldset>
+            <legend>Boton para Hello World! Clásico</legend>
+        <button type="button" onclick="alert('Hello World!')">-------------------Click Me!------------------</button>
+        </fieldset>
     </div>
 
 </body>
