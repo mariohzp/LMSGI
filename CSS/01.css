@@ -1,0 +1,19 @@
+/* Regla para las cabeceras de nivel 1, 2 y 3 */
+h1 {
+    color: red; /* Color rojo */
+    font-size: 4em; /* Cuádruple del tamaño de la letra M */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Regla para las cabeceras de nivel 2 */
+h2 {
+    color: red; /* Color rojo */
+    font-size: 3em; /* Triple del tamaño de la letra M */
+}
+
+/* Regla para las cabeceras de nivel 3 */
+h3 {
+    color: red; /* Color rojo */
+    font-size: 2em; /* Doble del tamaño de la letra M */
+}
