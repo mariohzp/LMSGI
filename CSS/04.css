@@ -1,0 +1,9 @@
+p {
+    color:blue;
+    border: solid black;
+    background-color: rgb(225, 220, 220);
+}
+.amarillo {
+    background-color: yellow;
+}
+#sexto{font-size: 2em;}
