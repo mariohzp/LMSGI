@@ -1,0 +1,4 @@
+div em { /*em para afectar al texto, no al div*/
+    color: red};
+p em{
+    color: blue};
