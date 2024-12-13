@@ -1,0 +1,30 @@
+#capaCabecera {
+    text-align:center;
+    width: 100%;
+    height: 100px;
+    background-color: #f27f6a;
+
+}
+#capaIzquierda {
+    float: left;
+    margin:10px;
+    width: 73%;
+    height: 220px;
+    background-color: #98FB98;
+
+}
+#capaDerecha {
+    text-align: center;
+    margin: 5px;
+    float: right;
+    width: 25%;
+    height: 100%;
+    background-color: #87CEEB;
+
+}
+#capaPie {
+    clear:both;
+    width: 100%;
+    height: 25%;
+    background-color: #cdccc6;
+}
