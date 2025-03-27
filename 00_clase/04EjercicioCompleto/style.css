@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER ESTUDIAR PROPIEDADES*/
+header {
+    background-image: url(00fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Roboto','sanz-sherif';
+
+    
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center; /*arriba*/
+    align-items: center; /*derecha*/
+}
+
+
+/*CONTAINER ESTUDIAR PROPIEDADES*/
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; /*.*/
+    justify-content: space-around; /*.*/
+    align-items: center; /*.*/
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.3); /*lo ultimo es la opacidad*/
+}
+
+
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/*BANNER IMG*/
+.banner{
+    color: beige;
+    text-align: center;
+    height: 400px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Roboto','sanz-sherif';
+    background-image: url(00fondo2.jpg);
+}
+
+nav a:hover{
+    transform: scale(1.1); /*para hacer más grande las letras al pasar el ratón*/
+}
+
+.titulo h1{
+    font-size: 50px;
+    color: rgb(92, 8, 171);
+    font-style: oblique;
+}
+
+
+.boton{
+    background-color: rgb(231, 207, 179);
+    color: black;
+    padding: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 30px; /*CIRCULAR*/
+}
+
+
+@media screen and (max-width: 768px){
+    .container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .menu{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+
+
+/*
+absolutas: px
+relativas: %
+*/
+
+
+/*
+estudiar: grid(template rows), display flex, margin, pading, height, flex, gap, galerias, medias
+*/
