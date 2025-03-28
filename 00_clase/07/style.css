@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(hambu.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.hero-text {
+    font-family: 'Agu Display';
+    font-size: 22px;
+    margin-top: 40vh;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+
+.hero-text h1 {
+    font-size: 100px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+    padding: 10px 40px;
+    text-decoration: none; /*quitar lo del boton del subrayado y colores*/
+    display:inline-block; /*porque no tiene padding, ya que es un elemento enlinea*/
+    margin-top: 20px;
+}
+
+.hero-text a:hover{
+    color: black;
+    background-color: white;
+}

@@ -1,0 +1,56 @@
+*{   /*SIEMPRE PONER:*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*cabecera*/
+.store-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*"body"*/
+.store-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit /*columnas*/, minmax(300px,1fr)/*tamaños*/); /*auto-fill es otra cosa*/
+    align-items: center;
+    gap: 30px;
+    margin-top: 4rem;
+}
+
+/*tarjetas*/
+.card{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.imagen img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    font-size: 15px;
+}
+
+.card:hover{
+    transform: scale(1.04);
+}
