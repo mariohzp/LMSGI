@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!--FUNCION PESO-->
+  <h2>FUNCION PESO</h2>
+  <p>Entradas de datos:</p>
+
+  <input id="numb">
+
+  <button type="button" onclick="funcionPeso()">Submit</button>
+
+  <p id="demo"></p>
+
+  <script>
+    function funcionPeso() {
+      let x = document.getElementById("numb").value;
+      let text;
+      if (isNaN(x) || x < 1) {
+        text = "Valor no válido, pon de nuevo!";
+      } else if (x > 150) {
+        const img = document.createElement("img");
+        img.src = "images.png"; // Ruta de la imagen
+        img.alt = "Imagen mostrada";
+        img.style.width = "300px";
+
+        document.body.appendChild(img);
+      } else {
+        text = "Buen pesin!";
+      }
+      document.getElementById("demo").innerHTML = text;
+    }
+  </script>
+
+  <!--FUNCION PESO-->
+
+</body>
+
+</html>
+<html>

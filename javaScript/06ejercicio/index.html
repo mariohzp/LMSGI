@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ventana</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Ventana Modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, deserunt quis deleniti error necessitatibus
+            quod
+            mollitia ut vel itaque hic cum tempore dolores! Eligendi iste distinctio delectus ipsum mollitia eaque?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, deserunt quis deleniti error necessitatibus
+            quod
+            mollitia ut vel itaque hic cum tempore dolores! Eligendi iste distinctio delectus ipsum mollitia eaque?</p>
+            <div class="galeria">
+                <img onclick=abrirmodal(); id="btn-abrir-modal" src="03squirtle.png" alt="Squirtle">
+                <img onclick=abrirmodal(); id="btn-abrir-modal" src="bulbasaur.jpg" alt="bulbasaur">
+                <img onclick=abrirmodal(); id="btn-abrir-modal" src="charmander.jpg" alt="charmander">
+            </div>
+
+
+    </div>
+
+    <dialog id="modal">
+        <h1>Hola soy un modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, deserunt quis deleniti error necessitatibus
+            quod mollitia ut vel itaque hic cum tempore dolores! Eligendi iste distinctio delectus ipsum mollitia eaque?
+        </p>
+        <button onclick=cerrarmodal(); id="btn-cerrar-modal">Cerrar modal</button>
+    </dialog>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

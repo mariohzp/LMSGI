@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <style>
+        #capa{
+            width: 500px;
+            height: 500px;
+            border-radius: 400px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div onmouseover="cambiarColor()" onmouseout="verde()" id="capa">
+        <p>Este es un párrafo</p>
+    </div>
+    <button onclick="rojo()"; id="btn_rojo">Rojo</button>
+    <button onclick="amarillo()"; id="btn_amarillo">Amarillo</button>
+    <button onclick="verde()"; id="btn_verde">Verde</button>
+    <button onclick="ocultar()"; id="btn_ocultar">Ocultar</button>
+    <button onclick="mostrar()"; id="btn_mostrar">Mostrar</button>
+
+    <script>
+        function rojo(){
+            document.getElementById("capa").style.backgroundColor= "red";
+        }
+        function amarillo(){
+            document.getElementById("capa").style.backgroundColor= "yellow";
+        }
+        function verde(){
+            document.getElementById("capa").style.backgroundColor= "green";
+        }
+        function ocultar(){
+            document.getElementById("capa").style.visibility="hidden";
+        }
+        function mostrar(){
+            document.getElementById("capa").style.visibility="visible";
+        }
+        function cambiarColor(){
+            document.getElementById("capa").style.backgroundColor= "blue";
+        }
+    </script>
+</body>
+</html>

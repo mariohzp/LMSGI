@@ -1,0 +1,23 @@
+
+/*EJERCICIO2*/
+.ejercicio2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pswdCont {
+    display: flex;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    padding: 30px;
+    width: 500px;
+    gap: 20px;
+    border-radius: 100px;
+}
+
+.pswdCont button{
+    padding: 10px;
+}
