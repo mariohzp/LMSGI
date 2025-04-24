@@ -1,0 +1,51 @@
+
+#container {
+    display: none;
+}
+
+#container.active {
+    display: block;
+}
+
+
+
+
+.accordion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accordion-body {
+    display: none;
+}
+
+.accordion-btn {
+    padding: 10px;
+    font-size: 20px;
+    background-color: aquamarine;
+    border-radius: 300px;
+    border: 1px solid black;
+    width: 50px;
+    cursor: pointer;
+}
+
+.accordion-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 200px;
+}
+
+.accordion-item h2 {
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active2 {
+    display: block;
+    background-color: antiquewhite;
+}
